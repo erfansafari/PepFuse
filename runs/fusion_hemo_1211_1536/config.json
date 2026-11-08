@@ -1,0 +1,83 @@
+{
+  "_wandb": {},
+  "batch_size": 16,
+  "data": {
+    "num_workers": 4,
+    "pin_memory": true
+  },
+  "debug": false,
+  "device": "cuda",
+  "epochs": 50,
+  "evaluation": {
+    "metric": "auc",
+    "save_best_model": true
+  },
+  "fusion": {
+    "dropout": 0.1,
+    "fusion_type": "concat",
+    "hidden_dim": 256,
+    "num_heads": 4
+  },
+  "graph": {
+    "k_hop": 2,
+    "readout": "mean"
+  },
+  "graph_encoder": {
+    "dropout": 0.1,
+    "heads": 4,
+    "hidden_dim": 128,
+    "k_max": 3,
+    "max_degree": 10,
+    "num_layers": 4,
+    "use_degree": true
+  },
+  "handcrafted": {
+    "dropout": 0.1,
+    "hidden_dim": 128,
+    "in_dim": 45,
+    "num_layers": 2,
+    "use": true
+  },
+  "logging": {
+    "log_dir": "./logs",
+    "tensorboard": false,
+    "wandb": false
+  },
+  "loss": {
+    "supcon_lambda": 0.1,
+    "supcon_temperature": 0.07,
+    "use_supcon": false
+  },
+  "optim": {
+    "lr": 2e-05,
+    "type": "adamw",
+    "weight_decay": 0.01
+  },
+  "output": {
+    "checkpoint_dir": "./checkpoints/fusion_handcrafted",
+    "save_predictions": true
+  },
+  "sch": {
+    "min_lr": 1e-07,
+    "steps": 471,
+    "type": "cosine",
+    "warmup_ratio": 0.1
+  },
+  "sequence": {
+    "attn_heads": 16,
+    "dropout": 0.1,
+    "hidden_layers": 30,
+    "hidden_size": 1024
+  },
+  "task": "hemo",
+  "training": {
+    "early_stopping": {
+      "min_delta": 0.001,
+      "patience": 10
+    },
+    "gradient_clip": 1.0,
+    "log_interval": 10,
+    "save_interval": 5
+  },
+  "vocab_size": 30
+}

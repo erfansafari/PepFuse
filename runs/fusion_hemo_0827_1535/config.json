@@ -1,0 +1,57 @@
+{
+  "_wandb": {},
+  "augment": true,
+  "batch_size": 32,
+  "data": {
+    "num_workers": 4,
+    "pin_memory": true
+  },
+  "debug": false,
+  "epochs": 30,
+  "fusion": {
+    "dropout": 0.01,
+    "fusion_type": "concat",
+    "hidden_dim": 256
+  },
+  "graph": {
+    "k_hop": 2,
+    "readout": "mean",
+    "use_one_hot": false
+  },
+  "graph_encoder": {
+    "dropout": 0.1,
+    "heads": 8,
+    "hidden_dim": 128,
+    "k_max": 3,
+    "max_degree": 64,
+    "num_layers": 4,
+    "use_degree": true
+  },
+  "logging": {
+    "log_interval": 10,
+    "save_best_only": true,
+    "wandb_project": "PeptideBERT-Fusion"
+  },
+  "optim": {
+    "lr": 5e-06
+  },
+  "pretrained": {
+    "graph_encoder_path": null,
+    "peptide_bert_path": null
+  },
+  "sch": {
+    "factor": 0.1,
+    "name": "lronplateau",
+    "patience": 5,
+    "steps": 235
+  },
+  "sequence": {
+    "attn_heads": 12,
+    "dropout": 0.15,
+    "hidden_layers": 12,
+    "hidden_size": 480
+  },
+  "task": "hemo",
+  "type": "random_swap",
+  "vocab_size": 25
+}

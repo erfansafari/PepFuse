@@ -1,0 +1,66 @@
+# Fusion Model Configuration: PeptideBERT + Graphormer Lite (Small/CPU version)
+# ============================================================================
+
+# Training parameters
+epochs: 10 # Reduced for faster training
+batch_size: 32 # Smaller batch size for CPU
+vocab_size: 25
+task: nf # hemo, sol, nf
+augment: false
+type: random_replace
+debug: true # Enable debug mode by default
+
+# Graph parameters
+graph:
+  k_hop: 1 # Reduced to 1-hop for faster processing
+  use_one_hot: false # Use token IDs instead of one-hot encoding
+  readout: "mean" # Graph pooling method: "mean", "add", "max"
+
+# PeptideBERT sequence encoder configuration (smaller)
+sequence:
+  hidden_size: 256 # Reduced from 480
+  hidden_layers: 6 # Reduced from 12
+  attn_heads: 8 # Reduced from 12
+  dropout: 0.1
+
+# Graphormer Lite graph encoder configuration (smaller)
+graph_encoder:
+  hidden_dim: 64 # Reduced from 128
+  heads: 4 # Reduced from 8
+  num_layers: 2 # Reduced from 4
+  dropout: 0.1
+  k_max: 2 # Reduced from 3
+  max_degree: 32 # Reduced from 64
+  use_degree: true
+
+# Fusion configuration
+fusion:
+  fusion_type: "concat" # "concat" or "gated"
+  hidden_dim: 128 # Reduced from 256
+  dropout: 0.1
+
+# Optimizer configuration
+optim:
+  lr: 1.0e-4 # Higher learning rate for smaller model
+
+# Scheduler configuration
+sch:
+  name: lronplateau # onecycle, lronplateau
+  factor: 0.5
+  patience: 3 # Reduced patience
+
+# Data configuration
+data:
+  num_workers: 0 # No multiprocessing for CPU
+  pin_memory: false
+
+# Logging and checkpointing
+logging:
+  wandb_project: "PeptideBERT-Fusion-Small"
+  log_interval: 5 # More frequent logging
+  save_best_only: true
+
+# Model paths (optional - for loading pretrained components)
+pretrained:
+  peptide_bert_path: null # Path to pretrained PeptideBERT weights
+  graph_encoder_path: null # Path to pretrained GraphEncoder weights

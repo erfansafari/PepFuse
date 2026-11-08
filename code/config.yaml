@@ -1,0 +1,21 @@
+epochs: 20
+batch_size: 32
+vocab_size: 25
+task: nf # hemo, sol, nf
+augment: false
+type: random_replace ###random_swap  # random_replace, random_delete, random_replace_with_A, random_swap, random_insertion_with_A, random_masking
+debug: false
+
+network:
+  hidden_size: 480
+  hidden_layers: 12
+  attn_heads: 12
+  dropout: 0.15
+
+optim:
+  lr: 1.0e-5
+
+sch:
+  name: lronplateau # onecycle, lronplateau
+  factor: 0.1
+  patience: 4

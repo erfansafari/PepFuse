@@ -1,0 +1,73 @@
+# Fusion Model Configuration: PeptideBERT + Graphormer Lite
+# =========================================================
+
+# Training parameters
+epochs: 30
+batch_size: 32 # Reduced for fusion model memory requirements
+vocab_size: 25
+task: nf # hemo, sol, nf
+augment: false
+type: random_swap
+debug: false
+
+# Graph parameters
+graph:
+  k_hop: 2 # Maximum hop distance for graph edges (1=backbone only, 2=includes next-neighbor)
+  use_one_hot: false # Use token IDs instead of one-hot encoding
+  readout: "mean" # Graph pooling method: "mean", "add", "max"
+
+# PeptideBERT sequence encoder configuration
+sequence:
+  hidden_size: 480
+  hidden_layers: 12
+  attn_heads: 12
+  dropout: 0.15
+
+# Graphormer Lite graph encoder configuration
+graph_encoder:
+  hidden_dim: 128
+  heads: 16 #8
+  num_layers: 4 #4
+  dropout: 0.01
+  k_max: 3 # Maximum hop distance for edge embeddings
+  max_degree: 64 # Maximum degree for degree embeddings
+  use_degree: true
+
+# Fusion configuration
+
+fusion:
+  fusion_type: "gated" # "concat" or "gated"
+  hidden_dim: 256 # Hidden dimension for fusion MLP
+  dropout: 0.01
+
+# Loss configuration
+loss:
+  use_supcon: false # Enable supervised contrastive loss (set to true to enable)
+  supcon_lambda: 0.1 # Weight for the contrastive loss term (when enabled)
+  supcon_temperature: 0.07 # Temperature parameter for contrastive loss
+
+# Optimizer configuration
+optim:
+  lr: 5.0e-6 # Lower learning rate for fusion model
+
+# Scheduler configuration
+sch:
+  name: lronplateau # onecycle, lronplateau
+  factor: 0.1
+  patience: 5 # Increased patience for fusion model
+
+# Data configuration
+data:
+  num_workers: 4
+  pin_memory: true
+
+# Logging and checkpointing
+logging:
+  wandb_project: "PeptideBERT-Fusion"
+  log_interval: 10
+  save_best_only: true
+
+# Model paths (optional - for loading pretrained components)
+pretrained:
+  peptide_bert_path: null # Path to pretrained PeptideBERT weights
+  graph_encoder_path: null # Path to pretrained GraphEncoder weights

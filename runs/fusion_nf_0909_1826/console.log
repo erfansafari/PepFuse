@@ -1,0 +1,583 @@
+2025-09-09 18:26:43,784 - __main__ - INFO - Starting enhanced fusion training...
+
+======================================================================
+                    ENHANCED FUSION MODEL TRAINING                    
+======================================================================
+
+Epoch 1/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.31%
+Accuracy       : 84.58%
+Precision      : 63.72%
+Recall         : 61.02%
+F1             : 62.34%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.27%
+Accuracy       : 85.65%
+Precision      : 61.27%
+Recall         : 82.08%
+F1             : 70.16%
+Auc            : 93.18%
+----------------------------------------
+2025-09-09 18:29:47,829 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_nf_0909_1826/best_f1_model.pt
+
+🎯 New best F1 model saved! F1: 70.16%
+2025-09-09 18:29:48,534 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_nf_0909_1826/best_val_accuracy_model.pt
+
+🏆 New best validation accuracy model saved! Val Acc: 85.65%
+
+Epoch 2/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.26%
+Accuracy       : 86.33%
+Precision      : 65.59%
+Recall         : 73.16%
+F1             : 69.17%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.26%
+Accuracy       : 86.43%
+Precision      : 64.29%
+Recall         : 76.42%
+F1             : 69.83%
+Auc            : 93.26%
+----------------------------------------
+2025-09-09 18:32:52,338 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_nf_0909_1826/best_val_accuracy_model.pt
+
+🏆 New best validation accuracy model saved! Val Acc: 86.43%
+
+Epoch 3/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.26%
+Accuracy       : 86.43%
+Precision      : 66.23%
+Recall         : 71.88%
+F1             : 68.94%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.25%
+Accuracy       : 86.23%
+Precision      : 63.43%
+Recall         : 77.99%
+F1             : 69.96%
+Auc            : 93.49%
+----------------------------------------
+
+Epoch 4/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.25%
+Accuracy       : 86.68%
+Precision      : 66.68%
+Recall         : 72.69%
+F1             : 69.55%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.25%
+Accuracy       : 87.07%
+Precision      : 69.80%
+Recall         : 65.41%
+F1             : 67.53%
+Auc            : 93.68%
+----------------------------------------
+2025-09-09 18:38:55,174 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_nf_0909_1826/best_val_accuracy_model.pt
+
+🏆 New best validation accuracy model saved! Val Acc: 87.07%
+
+Epoch 5/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.25%
+Accuracy       : 86.69%
+Precision      : 66.89%
+Recall         : 72.11%
+F1             : 69.40%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.25%
+Accuracy       : 86.43%
+Precision      : 63.43%
+Recall         : 80.19%
+F1             : 70.83%
+Auc            : 93.58%
+----------------------------------------
+2025-09-09 18:41:57,345 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_nf_0909_1826/best_f1_model.pt
+
+🎯 New best F1 model saved! F1: 70.83%
+2025-09-09 18:41:57,921 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_nf_0909_1826/checkpoint_epoch_5.pt
+
+Epoch 6/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.25%
+Accuracy       : 87.08%
+Precision      : 68.01%
+Recall         : 72.34%
+F1             : 70.11%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 87.07%
+Precision      : 70.63%
+Recall         : 63.52%
+F1             : 66.89%
+Auc            : 93.72%
+----------------------------------------
+
+Epoch 7/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.25%
+Accuracy       : 86.96%
+Precision      : 67.69%
+Recall         : 72.14%
+F1             : 69.84%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.25%
+Accuracy       : 86.04%
+Precision      : 62.03%
+Recall         : 82.70%
+F1             : 70.89%
+Auc            : 93.68%
+----------------------------------------
+2025-09-09 18:48:01,621 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_nf_0909_1826/best_f1_model.pt
+
+🎯 New best F1 model saved! F1: 70.89%
+
+Epoch 8/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.25%
+Accuracy       : 87.00%
+Precision      : 67.88%
+Recall         : 71.92%
+F1             : 69.84%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.25%
+Accuracy       : 86.04%
+Precision      : 61.81%
+Recall         : 83.96%
+F1             : 71.20%
+Auc            : 93.53%
+----------------------------------------
+2025-09-09 18:51:03,932 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_nf_0909_1826/best_f1_model.pt
+
+🎯 New best F1 model saved! F1: 71.20%
+
+Epoch 9/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 87.09%
+Precision      : 68.24%
+Recall         : 71.83%
+F1             : 69.99%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 86.62%
+Precision      : 65.12%
+Recall         : 75.16%
+F1             : 69.78%
+Auc            : 93.63%
+----------------------------------------
+
+Epoch 10/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 87.14%
+Precision      : 68.15%
+Recall         : 72.51%
+F1             : 70.26%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 86.49%
+Precision      : 64.93%
+Recall         : 74.53%
+F1             : 69.40%
+Auc            : 93.61%
+----------------------------------------
+2025-09-09 18:57:06,374 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_nf_0909_1826/checkpoint_epoch_10.pt
+
+Epoch 11/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 87.37%
+Precision      : 68.85%
+Recall         : 72.50%
+F1             : 70.63%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 87.20%
+Precision      : 66.04%
+Recall         : 77.67%
+F1             : 71.39%
+Auc            : 93.67%
+----------------------------------------
+2025-09-09 19:00:09,277 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_nf_0909_1826/best_f1_model.pt
+
+🎯 New best F1 model saved! F1: 71.39%
+2025-09-09 19:00:11,296 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_nf_0909_1826/best_val_accuracy_model.pt
+
+🏆 New best validation accuracy model saved! Val Acc: 87.20%
+
+Epoch 12/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 87.26%
+Precision      : 68.95%
+Recall         : 71.27%
+F1             : 70.09%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 86.62%
+Precision      : 64.64%
+Recall         : 77.04%
+F1             : 70.30%
+Auc            : 93.66%
+----------------------------------------
+
+Epoch 13/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 87.28%
+Precision      : 68.45%
+Recall         : 72.74%
+F1             : 70.53%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 86.49%
+Precision      : 66.17%
+Recall         : 70.13%
+F1             : 68.09%
+Auc            : 93.62%
+----------------------------------------
+
+Epoch 14/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 87.41%
+Precision      : 69.02%
+Recall         : 72.34%
+F1             : 70.64%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.25%
+Accuracy       : 86.55%
+Precision      : 71.48%
+Recall         : 57.55%
+F1             : 63.76%
+Auc            : 93.52%
+----------------------------------------
+
+Epoch 15/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 87.54%
+Precision      : 69.44%
+Recall         : 72.24%
+F1             : 70.81%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.25%
+Accuracy       : 86.49%
+Precision      : 63.73%
+Recall         : 79.56%
+F1             : 70.77%
+Auc            : 93.61%
+----------------------------------------
+2025-09-09 19:12:14,276 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_nf_0909_1826/checkpoint_epoch_15.pt
+
+Epoch 16/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 87.38%
+Precision      : 69.20%
+Recall         : 71.74%
+F1             : 70.44%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 86.81%
+Precision      : 64.69%
+Recall         : 78.93%
+F1             : 71.10%
+Auc            : 93.63%
+----------------------------------------
+
+Epoch 17/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 87.52%
+Precision      : 69.23%
+Recall         : 72.77%
+F1             : 70.96%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 86.30%
+Precision      : 66.16%
+Recall         : 68.24%
+F1             : 67.18%
+Auc            : 93.52%
+----------------------------------------
+Epoch 00017: reducing learning rate of group 0 to 5.0000e-07.
+
+Epoch 18/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.23%
+Accuracy       : 87.80%
+Precision      : 69.87%
+Recall         : 73.47%
+F1             : 71.62%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 86.81%
+Precision      : 66.29%
+Recall         : 72.96%
+F1             : 69.46%
+Auc            : 93.60%
+----------------------------------------
+
+Epoch 19/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.23%
+Accuracy       : 88.04%
+Precision      : 70.52%
+Recall         : 73.69%
+F1             : 72.07%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.25%
+Accuracy       : 86.49%
+Precision      : 64.69%
+Recall         : 75.47%
+F1             : 69.67%
+Auc            : 93.61%
+----------------------------------------
+
+Epoch 20/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.23%
+Accuracy       : 87.90%
+Precision      : 69.60%
+Recall         : 74.85%
+F1             : 72.13%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 86.68%
+Precision      : 66.28%
+Recall         : 71.70%
+F1             : 68.88%
+Auc            : 93.60%
+----------------------------------------
+2025-09-09 19:27:17,849 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_nf_0909_1826/checkpoint_epoch_20.pt
+
+Epoch 21/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.23%
+Accuracy       : 88.01%
+Precision      : 69.94%
+Recall         : 74.97%
+F1             : 72.37%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.24%
+Accuracy       : 86.68%
+Precision      : 66.09%
+Recall         : 72.33%
+F1             : 69.07%
+Auc            : 93.60%
+----------------------------------------
+2025-09-09 19:30:20,101 - __main__ - INFO - Early stopping after 10 epochs without improvement
+2025-09-09 19:30:20,102 - __main__ - INFO - Loading best F1 model for testing...
+2025-09-09 19:30:21,701 - model.fusion_utils - INFO - Checkpoint loaded: checkpoints/fusion_nf_0909_1826/best_f1_model.pt
+2025-09-09 19:30:21,704 - __main__ - INFO - Running final evaluation on best F1 model...
+
+2025-09-09 19:30:28,987 - __main__ - INFO - Loading best validation accuracy model for testing...
+2025-09-09 19:30:29,368 - model.fusion_utils - INFO - Checkpoint loaded: checkpoints/fusion_nf_0909_1826/best_val_accuracy_model.pt
+
+
+======================================================================
+                          FINAL TEST RESULTS                          
+======================================================================
+Best Model Type: F1
+Best Model Path: checkpoints/fusion_nf_0909_1826/best_f1_model.pt
+
+Best Test Results Metrics:
+----------------------------------------
+Accuracy       : 86.50%
+Precision      : 65.73%
+Recall         : 76.84%
+F1             : 70.85%
+Auc            : 93.34%
+Avg_inference_time: 0.1292s
+Total_samples  : 1719
+----------------------------------------
+
+Val Accuracy Model Test Results Metrics:
+----------------------------------------
+Accuracy       : 86.50%
+Precision      : 65.73%
+Recall         : 76.84%
+F1             : 70.85%
+Auc            : 93.34%
+Avg_inference_time: 0.1292s
+Total_samples  : 1719
+----------------------------------------
+2025-09-09 19:30:37,098 - __main__ - INFO - Saving comprehensive results...
+2025-09-09 19:30:37,101 - model.fusion_results_saver - INFO - Saved run results: txt file/fusion_nf_0909_1826_results.txt
+2025-09-09 19:30:37,102 - __main__ - INFO - Generating summary reports...
+2025-09-09 19:30:37,102 - model.fusion_results_saver - INFO - Generated summary report: txt file/fusion_comprehensive_summary.txt
+2025-09-09 19:30:37,103 - model.fusion_results_saver - INFO - Generated best models summary: txt file/fusion_best_models_summary.txt
+2025-09-09 19:30:37,103 - model.fusion_results_saver - INFO - Exported results to CSV: txt file/fusion_results.csv

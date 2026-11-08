@@ -1,0 +1,66 @@
+# Task configuration
+task: "nf"
+batch_size: 16
+epochs: 30
+
+device: "cuda"
+vocab_size: 30
+
+# Data configuration
+graph:
+  k_hop: 2
+  readout: "mean"
+
+data:
+  num_workers: 4
+  pin_memory: true
+
+# Sequence encoder (PeptideBERT)
+sequence:
+  hidden_size: 480
+  hidden_layers: 30
+  attn_heads: 16
+  dropout: 0.1
+
+# Graph encoder (GraphEncoder)
+graph_encoder:
+  hidden_dim: 128
+  heads: 4
+  num_layers: 4
+  k_max: 3
+  max_degree: 10
+  dropout: 0.1
+  use_degree: true
+
+# Handcrafted features encoder
+handcrafted:
+  use: true
+  in_dim: 45
+  hidden_dim: 128
+  num_layers: 2
+  dropout: 0.1
+
+# Fusion configuration
+fusion:
+  fusion_type: "concat"
+  hidden_dim: 256
+  dropout: 0.1
+  num_heads: 4
+
+# Loss configuration
+loss:
+  use_supcon: false
+  supcon_temperature: 0.07
+  supcon_lambda: 0.1
+
+# Optimizer configuration
+optim:
+  type: "adamw"
+  lr: 2.0e-5
+  weight_decay: 0.01
+
+# Scheduler configuration
+sch:
+  type: "cosine"
+  warmup_ratio: 0.1
+  min_lr: 1.0e-7

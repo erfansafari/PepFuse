@@ -1,0 +1,729 @@
+2025-08-27 19:04:01,935 - __main__ - INFO - Starting enhanced fusion training...
+
+======================================================================
+                    ENHANCED FUSION MODEL TRAINING                    
+======================================================================
+
+Epoch 1/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.49%
+Accuracy       : 80.31%
+Precision      : 27.91%
+Recall         : 0.82%
+F1             : 1.59%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.49%
+Accuracy       : 79.50%
+Precision      : 0.00%
+Recall         : 0.00%
+F1             : 0.00%
+Auc            : 62.48%
+----------------------------------------
+2025-08-27 19:05:32,699 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_hemo_0827_1903/best_val_accuracy_model.pt
+
+🏆 New best validation accuracy model saved! Val Acc: 79.50%
+
+Epoch 2/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.47%
+Accuracy       : 80.55%
+Precision      : 0.00%
+Recall         : 0.00%
+F1             : 0.00%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.48%
+Accuracy       : 79.50%
+Precision      : 50.00%
+Recall         : 1.74%
+F1             : 3.37%
+Auc            : 68.81%
+----------------------------------------
+2025-08-27 19:07:02,615 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_hemo_0827_1903/best_f1_model.pt
+
+🎯 New best F1 model saved! F1: 3.37%
+
+Epoch 3/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.46%
+Accuracy       : 80.68%
+Precision      : 56.00%
+Recall         : 1.92%
+F1             : 3.71%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.46%
+Accuracy       : 79.14%
+Precision      : 33.33%
+Recall         : 1.74%
+F1             : 3.31%
+Auc            : 72.90%
+----------------------------------------
+
+Epoch 4/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.44%
+Accuracy       : 80.61%
+Precision      : 51.03%
+Recall         : 6.77%
+F1             : 11.96%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.46%
+Accuracy       : 79.14%
+Precision      : 38.46%
+Recall         : 2.91%
+F1             : 5.41%
+Auc            : 74.35%
+----------------------------------------
+2025-08-27 19:10:03,429 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_hemo_0827_1903/best_f1_model.pt
+
+🎯 New best F1 model saved! F1: 5.41%
+
+Epoch 5/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.44%
+Accuracy       : 80.60%
+Precision      : 51.10%
+Recall         : 7.92%
+F1             : 13.72%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.45%
+Accuracy       : 78.67%
+Precision      : 43.86%
+Recall         : 14.53%
+F1             : 21.83%
+Auc            : 74.91%
+----------------------------------------
+2025-08-27 19:11:34,867 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_hemo_0827_1903/best_f1_model.pt
+
+🎯 New best F1 model saved! F1: 21.83%
+2025-08-27 19:11:35,462 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_hemo_0827_1903/checkpoint_epoch_5.pt
+
+Epoch 6/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.43%
+Accuracy       : 80.77%
+Precision      : 51.81%
+Recall         : 13.70%
+F1             : 21.67%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.45%
+Accuracy       : 78.07%
+Precision      : 44.00%
+Recall         : 25.58%
+F1             : 32.35%
+Auc            : 72.95%
+----------------------------------------
+2025-08-27 19:13:06,661 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_hemo_0827_1903/best_f1_model.pt
+
+🎯 New best F1 model saved! F1: 32.35%
+
+Epoch 7/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.43%
+Accuracy       : 80.59%
+Precision      : 50.14%
+Recall         : 12.66%
+F1             : 20.22%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.45%
+Accuracy       : 78.90%
+Precision      : 46.48%
+Recall         : 19.19%
+F1             : 27.16%
+Auc            : 75.16%
+----------------------------------------
+
+Epoch 8/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.42%
+Accuracy       : 81.17%
+Precision      : 54.85%
+Recall         : 17.78%
+F1             : 26.86%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.46%
+Accuracy       : 77.12%
+Precision      : 44.32%
+Recall         : 45.35%
+F1             : 44.83%
+Auc            : 75.64%
+----------------------------------------
+2025-08-27 19:16:07,262 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_hemo_0827_1903/best_f1_model.pt
+
+🎯 New best F1 model saved! F1: 44.83%
+
+Epoch 9/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.42%
+Accuracy       : 81.02%
+Precision      : 52.92%
+Recall         : 21.08%
+F1             : 30.15%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.45%
+Accuracy       : 78.31%
+Precision      : 44.19%
+Recall         : 22.09%
+F1             : 29.46%
+Auc            : 76.56%
+----------------------------------------
+
+Epoch 10/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.42%
+Accuracy       : 81.20%
+Precision      : 53.83%
+Recall         : 21.66%
+F1             : 30.89%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.45%
+Accuracy       : 79.50%
+Precision      : 50.00%
+Recall         : 20.93%
+F1             : 29.51%
+Auc            : 75.94%
+----------------------------------------
+2025-08-27 19:19:06,688 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_hemo_0827_1903/checkpoint_epoch_10.pt
+
+Epoch 11/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.42%
+Accuracy       : 81.54%
+Precision      : 55.83%
+Recall         : 22.98%
+F1             : 32.56%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.44%
+Accuracy       : 80.10%
+Precision      : 54.24%
+Recall         : 18.60%
+F1             : 27.71%
+Auc            : 77.18%
+----------------------------------------
+2025-08-27 19:20:38,822 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_hemo_0827_1903/best_val_accuracy_model.pt
+
+🏆 New best validation accuracy model saved! Val Acc: 80.10%
+
+Epoch 12/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.41%
+Accuracy       : 81.57%
+Precision      : 55.85%
+Recall         : 24.83%
+F1             : 34.38%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.44%
+Accuracy       : 76.88%
+Precision      : 43.75%
+Recall         : 44.77%
+F1             : 44.25%
+Auc            : 77.06%
+----------------------------------------
+
+Epoch 13/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.41%
+Accuracy       : 81.99%
+Precision      : 58.22%
+Recall         : 26.38%
+F1             : 36.31%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.46%
+Accuracy       : 75.33%
+Precision      : 42.08%
+Recall         : 54.07%
+F1             : 47.33%
+Auc            : 76.96%
+----------------------------------------
+2025-08-27 19:23:39,464 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_hemo_0827_1903/best_f1_model.pt
+
+🎯 New best F1 model saved! F1: 47.33%
+
+Epoch 14/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.41%
+Accuracy       : 81.70%
+Precision      : 56.63%
+Recall         : 24.85%
+F1             : 34.54%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.43%
+Accuracy       : 77.59%
+Precision      : 44.29%
+Recall         : 36.05%
+F1             : 39.74%
+Auc            : 78.00%
+----------------------------------------
+
+Epoch 15/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.41%
+Accuracy       : 81.80%
+Precision      : 56.16%
+Recall         : 28.42%
+F1             : 37.74%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.43%
+Accuracy       : 78.31%
+Precision      : 46.53%
+Recall         : 38.95%
+F1             : 42.41%
+Auc            : 77.90%
+----------------------------------------
+2025-08-27 19:26:39,054 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_hemo_0827_1903/checkpoint_epoch_15.pt
+
+Epoch 16/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.40%
+Accuracy       : 82.10%
+Precision      : 58.49%
+Recall         : 27.10%
+F1             : 37.04%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.43%
+Accuracy       : 78.07%
+Precision      : 46.00%
+Recall         : 40.12%
+F1             : 42.86%
+Auc            : 78.53%
+----------------------------------------
+
+Epoch 17/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.40%
+Accuracy       : 82.15%
+Precision      : 58.40%
+Recall         : 28.52%
+F1             : 38.33%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.43%
+Accuracy       : 80.33%
+Precision      : 53.61%
+Recall         : 30.23%
+F1             : 38.66%
+Auc            : 78.46%
+----------------------------------------
+2025-08-27 19:29:39,764 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_hemo_0827_1903/best_val_accuracy_model.pt
+
+🏆 New best validation accuracy model saved! Val Acc: 80.33%
+
+Epoch 18/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.39%
+Accuracy       : 82.79%
+Precision      : 60.25%
+Recall         : 33.06%
+F1             : 42.69%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.43%
+Accuracy       : 80.10%
+Precision      : 52.10%
+Recall         : 36.05%
+F1             : 42.61%
+Auc            : 77.99%
+----------------------------------------
+
+Epoch 19/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.39%
+Accuracy       : 82.69%
+Precision      : 60.48%
+Recall         : 31.05%
+F1             : 41.03%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.42%
+Accuracy       : 78.67%
+Precision      : 47.65%
+Recall         : 41.28%
+F1             : 44.24%
+Auc            : 79.68%
+----------------------------------------
+Epoch 00019: reducing learning rate of group 0 to 5.0000e-07.
+
+Epoch 20/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.38%
+Accuracy       : 83.47%
+Precision      : 65.27%
+Recall         : 32.01%
+F1             : 42.96%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.41%
+Accuracy       : 79.74%
+Precision      : 50.78%
+Recall         : 37.79%
+F1             : 43.33%
+Auc            : 79.72%
+----------------------------------------
+2025-08-27 19:34:08,546 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_hemo_0827_1903/checkpoint_epoch_20.pt
+
+Epoch 21/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.37%
+Accuracy       : 83.84%
+Precision      : 65.26%
+Recall         : 36.00%
+F1             : 46.40%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.42%
+Accuracy       : 78.78%
+Precision      : 47.92%
+Recall         : 40.12%
+F1             : 43.67%
+Auc            : 79.54%
+----------------------------------------
+
+Epoch 22/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.37%
+Accuracy       : 83.88%
+Precision      : 65.56%
+Recall         : 36.38%
+F1             : 46.80%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.42%
+Accuracy       : 79.86%
+Precision      : 51.08%
+Recall         : 41.28%
+F1             : 45.66%
+Auc            : 79.65%
+----------------------------------------
+
+Epoch 23/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.37%
+Accuracy       : 83.67%
+Precision      : 64.19%
+Recall         : 35.55%
+F1             : 45.76%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.42%
+Accuracy       : 78.78%
+Precision      : 48.10%
+Recall         : 44.19%
+F1             : 46.06%
+Auc            : 79.66%
+----------------------------------------
+
+Epoch 24/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.37%
+Accuracy       : 83.72%
+Precision      : 64.33%
+Recall         : 36.41%
+F1             : 46.50%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.42%
+Accuracy       : 78.90%
+Precision      : 48.28%
+Recall         : 40.70%
+F1             : 44.16%
+Auc            : 79.54%
+----------------------------------------
+
+Epoch 25/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.37%
+Accuracy       : 83.87%
+Precision      : 64.68%
+Recall         : 37.26%
+F1             : 47.28%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.42%
+Accuracy       : 79.38%
+Precision      : 49.66%
+Recall         : 41.86%
+F1             : 45.43%
+Auc            : 79.70%
+----------------------------------------
+Epoch 00025: reducing learning rate of group 0 to 5.0000e-08.
+2025-08-27 19:41:35,907 - model.fusion_utils - INFO - Checkpoint saved: checkpoints/fusion_hemo_0827_1903/checkpoint_epoch_25.pt
+
+Epoch 26/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.37%
+Accuracy       : 84.04%
+Precision      : 65.60%
+Recall         : 37.91%
+F1             : 48.05%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.42%
+Accuracy       : 79.50%
+Precision      : 50.00%
+Recall         : 41.86%
+F1             : 45.57%
+Auc            : 79.68%
+----------------------------------------
+
+Epoch 27/30
+------------------------------------------------------------
+
+
+Training Metrics:
+----------------------------------------
+Loss           : 0.37%
+Accuracy       : 83.87%
+Precision      : 64.76%
+Recall         : 37.23%
+F1             : 47.28%
+----------------------------------------
+
+
+Validation Metrics:
+----------------------------------------
+Loss           : 0.42%
+Accuracy       : 79.50%
+Precision      : 50.00%
+Recall         : 40.70%
+F1             : 44.87%
+Auc            : 79.69%
+----------------------------------------
+2025-08-27 19:44:34,660 - __main__ - INFO - Early stopping after 10 epochs without improvement
+2025-08-27 19:44:34,660 - __main__ - INFO - Loading best F1 model for testing...
+2025-08-27 19:44:35,041 - model.fusion_utils - INFO - Checkpoint loaded: checkpoints/fusion_hemo_0827_1903/best_f1_model.pt
+2025-08-27 19:44:35,044 - __main__ - INFO - Running final evaluation on best F1 model...
+
+2025-08-27 19:44:38,825 - __main__ - INFO - Loading best validation accuracy model for testing...
+2025-08-27 19:44:39,183 - model.fusion_utils - INFO - Checkpoint loaded: checkpoints/fusion_hemo_0827_1903/best_val_accuracy_model.pt
+
+
+======================================================================
+                          FINAL TEST RESULTS                          
+======================================================================
+Best Model Type: Validation Accuracy
+Best Model Path: checkpoints/fusion_hemo_0827_1903/best_val_accuracy_model.pt
+
+Best Test Results Metrics:
+----------------------------------------
+Accuracy       : 83.05%
+Precision      : 63.89%
+Recall         : 36.70%
+F1             : 46.62%
+Auc            : 81.51%
+Avg_inference_time: 0.1160s
+Total_samples  : 932
+----------------------------------------
+
+F1 Model Test Results Metrics:
+----------------------------------------
+Accuracy       : 78.54%
+Precision      : 47.52%
+Recall         : 61.17%
+F1             : 53.49%
+Auc            : 79.09%
+Avg_inference_time: 0.1160s
+Total_samples  : 932
+----------------------------------------
+2025-08-27 19:44:43,245 - __main__ - INFO - Saving comprehensive results...
+2025-08-27 19:44:43,246 - model.fusion_results_saver - INFO - Saved run results: txt file/fusion_hemo_0827_1903_results.txt
+2025-08-27 19:44:43,246 - __main__ - INFO - Generating summary reports...
+2025-08-27 19:44:43,247 - model.fusion_results_saver - INFO - Generated summary report: txt file/fusion_comprehensive_summary.txt
+2025-08-27 19:44:43,247 - model.fusion_results_saver - INFO - Generated best models summary: txt file/fusion_best_models_summary.txt
+2025-08-27 19:44:43,247 - model.fusion_results_saver - INFO - Exported results to CSV: txt file/fusion_results.csv

@@ -1,0 +1,41 @@
+# PeptideBERT Configuration with Two-Stage Training
+# ==================================================
+
+# Basic training parameters
+epochs: 30  # Total epochs if not using two-stage training
+batch_size: 32
+vocab_size: 25
+task: hemo # hemo, sol, nf
+augment: false
+type: random_swap
+debug: false
+
+# Two-stage training parameters
+stage_a_epochs: 5       # Head-only training epochs
+stage_b_epochs: 25      # Fine-tuning epochs
+stage_b_layers: 4       # Number of last encoder layers to unfreeze in Stage B
+early_stopping_patience: 10
+
+# Network architecture
+network:
+  hidden_size: 480
+  hidden_layers: 12
+  attn_heads: 12
+  dropout: 0.15
+
+# Optimizer configuration
+optim:
+  # Stage A (head-only) learning rate
+  lr: 1.0e-3
+  
+  # Stage B (fine-tuning) differential learning rates
+  head_lr: 1.0e-4        # Higher LR for classification head
+  encoder_lr: 2.0e-5     # Lower LR for encoder layers
+  
+  weight_decay: 1.0e-5
+
+# Scheduler configuration
+sch:
+  name: lronplateau # onecycle, lronplateau
+  factor: 0.1
+  patience: 4
